@@ -1,0 +1,41 @@
+1.电脑上已经安装，控制面板卸载,
+  然后C:\Users\sdb\AppData\Roaming中 找到sublimetext文件删除
+2.重新安装-Sublime Text Build 3126 x64 Setup.exe
+3.tools中 点击最后一个 会生成到preferences ===package control
+4.配置正版=>
+	原文：http://m.blog.csdn.net/article/details?id=52717070
+	将代码复制已经安装的sublime中,方法：点击help 找到 Enter License 复制进去 点击 useLicense
+—– BEGIN LICENSE —–
+Michael Barnes
+Single User License
+EA7E-821385
+8A353C41 872A0D5C DF9B2950 AFF6F667
+C458EA6D 8EA3C286 98D1D650 131A97AB
+AA919AEC EF20E143 B361B1E7 4C8B7F04
+B085E65E 2F5F5360 8489D422 FB8FC1AA
+93F6323C FD7F7544 3F39C318 D95E6480
+FCCC7561 8A4A1741 68FA4223 ADCEDE07
+200C25BE DBBC4855 C4CFB774 C5EC138C
+0FEC1CEF D9DCECEC D3A5DAD1 01316C36
+—— END LICENSE ——
+
+5.汉化:https://jingyan.baidu.com/article/ca2d939d1e83feeb6c31cefc.html
+
+其他:
+	 Emmet:前端开发必备，Write less , show more，使用Tab键触发。安装Emmet后，可以输入少量代码后摁Tab键，系统自动补全代码。
+	 AutoFileName:快速列出你想引用的文件夹里面所有文件的名字，比如想引用test/img/1.png。只需要输入/img,该插件就会自动提示/img下面的所有文件名
+	 vue:高亮 vueHeight
+	 BracketHighlighter:高亮显示[], (), {}, “”, ”, <tag></tag>符号，便于查看起始和结束标记。如图：
+         ColorPicker:调色板，需要输入颜色时，可直接选取颜色。使用快捷键ctrl+shift+c即可打开调色板。需要注意的是，这个快捷键可能会打不开调色板，原因是该快捷键被占用了，
+		     最直接的解决办法是直接在Preferences→Key Bindings-User中配置：“{ "keys": ["ctrl+shift+c"], "command": "color_pick"},”
+         JsFormat:JsForma可以自动帮助你格式化JavaScript代码，形成一种通用的格式，比如对压缩、空格、换行的js代码进行整理，使得js代码结构清晰，
+		  易于观看。在已压缩的JS文件中，右键选择jsFormat或者使用默认快捷键（Ctrl+Alt+F），如果该热键被占用了，可以在Preferences→Key Bindings-User中配置： 
+                  { "keys": ["ctrl+shift+alt+j"], "command": "js_format","context": [{"key": "selector", "operator": "equal", "operand": "source.js,source.json"}]},
+         DocBlockr:安装该插件后，可以快速生成各种注释格式，当需要生成注释符号时，输入/*、/然后回车系统即帮你自动生成，如果/后面刚好是一个函数的定义，注释格式会根据函数的参数生成。
+	Sidebar Enhancements:sub侧栏右键文件提供的功能很少，但在实际开发中，文件通常会有各种处理请求，而该插件增强侧栏文件右键功能，比如可以直接右键将文件移入回收站，在浏览器中浏览，将文件复制到剪切板等
+	CSS Format:CSS Format可以将任意的 CSS、SASS、SCSS、LESS 代码格式化为展开、紧凑、压缩的形式，选中需要格式化的样式代码，右键选中CSS Format，选择需要形成的格式即可。
+	Tag:Tag插件提供各种对Tag标签的操作，具有功能：根据/自动关闭HTML标签，标签自动缩进（或选中ctrl+alt+f），删除标签和里面的内容，插入标签（对光标字符“ctrl+shift+,”生成标签），删除标签里的属性，关闭标签，检查标签等。有些功能是自动执行，有些功能需要手动执行，功能入口 菜单栏Edit→
+	Tag:html 补全
+        HTML5:
+	AutoFileName:自动提示路径插件
+来源：http://blog.csdn.net/u013861109/article/details/53106074
